@@ -1,7 +1,7 @@
 {
   "name": "ts-weather",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "git@github.com:YuanWenLai/ts-weather.git",
   "author": "yuanwenlai_a <yuanwenlai_a@aspirecn.com>",
   "license": "MIT",
@@ -13,7 +13,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn tslint -c tslint.json './**/*.ts'"
+      "pre-commit": "yarn tslint -c tslint.json './*.ts'"
     }
-  }
+  },
+  "description": "11"
 }
