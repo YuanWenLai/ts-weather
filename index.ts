@@ -1,5 +1,5 @@
 // console.log("Hello TS")
-let str:number = 'Hello TS'
+let str:string = 'Hello TS'
 
 
 
